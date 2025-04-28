@@ -28,6 +28,15 @@ if ($conn->connect_error) {
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900&display=swap" rel="stylesheet">
   <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
 </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-18YM8QY7XE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-18YM8QY7XE');
+</script>
 <body>
 
   <header>

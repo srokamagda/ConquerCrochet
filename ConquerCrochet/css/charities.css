@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #fff8e1;
+  }
+
+  .design-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background: #FFEB99;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+
+  .design-section.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .instructions {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .instructions h2 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 28px;
+  }
+
+  .instructions p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .charity-image-container {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .charity-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+
+  .charity-image-contain {
+    object-fit: contain;
+  }
+
+  .charity-image-cover {
+    object-fit: cover;
+  }
+
+  .charity-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .donate-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #FF69B4;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .donate-button:hover {
+    background-color: #e0559d;
+    transform: translateY(-2px);
+  }
